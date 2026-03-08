@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/orange_background"
+    android:fillViewport="true">
+    <!-- android:background="#36C8F4"-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Food App"
+            android:textColor="#2E2E2E"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edittext_border"
+            android:hint="Full Name"
+            android:paddingStart="20dp"
+            android:textColor="@color/black"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etNewEmail"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittext_border"
+            android:hint="Email address"
+            android:paddingStart="20dp"
+            android:textColor="@color/black"
+            android:inputType="textEmailAddress" />
+
+
+        <EditText
+            android:id="@+id/etNewPassword"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittext_border"
+            android:hint="Password"
+            android:paddingStart="20dp"
+            android:textColor="@color/black"
+            android:inputType="textPassword" />
+
+
+        <EditText
+            android:id="@+id/etAddress"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittext_border"
+            android:hint="Address"
+            android:paddingStart="20dp"
+            android:textColor="@color/black"
+            android:inputType="textPostalAddress" />
+
+        <Button
+            android:id="@+id/btnSignupAction"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#E94335"
+            android:text="Sign Up"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvBackToLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Are you a member? Login"
+            android:textColor="#2E2E2E"
+            android:textSize="16sp" />
+    </LinearLayout>
+</ScrollView>
