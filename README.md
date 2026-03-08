@@ -14,7 +14,6 @@ A modern Android application built with **Java** and **XML**, featuring a clean 
 - Manage cart (increase/decrease quantity)
 - Place orders
 - View previous orders
-- Separate data for each logged-in user
 
 ## 📸 App Screenshots
 
